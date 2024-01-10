@@ -1,0 +1,14 @@
+body {
+  background-image: url("../../images/paper.jpeg");
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+p {
+  color: red;
+  font-size: 20px;
+}
