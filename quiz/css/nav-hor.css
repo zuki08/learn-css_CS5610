@@ -5,6 +5,7 @@
 }
 
 .nav li {
-  display: block;
+  display: inline-block;
+  margin: 0 60px;
   font-size: 25px;
 }
