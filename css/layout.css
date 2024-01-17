@@ -55,7 +55,6 @@ body {
 .footer {
    position: fixed;
    bottom: 5px;
-   left: 0;
    width: 100%;
    background-color: lightgreen;
    color: black;
