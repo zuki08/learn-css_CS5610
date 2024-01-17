@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: lightblue;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 100%;
+}
+
+/* The navbar container */
+.topnav {
+  background-color: red;
+  width: 100%;
+}
+
+/* Navbar links */
+.topnav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: blue;
+}
+
+/* .column {
+  float: left;
+} */
+
+.main {
+  width: 100%;
+  margin: 20px 0;
+  border: thick solid purple;
+  overflow: scroll;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+.footer {
+   position: fixed;
+   bottom: 5px;
+   left: 0;
+   width: 100%;
+   background-color: lightgreen;
+   color: black;
+   text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
